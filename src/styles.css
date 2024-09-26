@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-background: #ffffff;
+  --color-main: #247f3e;
+  --color-secondary: #f6f6f6;
+  --color-text-dark: #000000;
+  --color-text-light: #ffffff;
+  --color-subtext: #6b6a6a;
+  --color-btn-main-hover: #1C6A32;
+  --color-btn-secondary-hover: #E0E0E0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------------------ start my classes ------------------------------ */
+.w-fit {
+  width: fit-content;
+}
+
+.shadow-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
+  transition: .3s;
+}
+
+.shadow-card:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.fs-14 {
+  font-size: 0.875rem;
+}
+
+.bg-main {
+  background-color: var(--color-main) !important;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.bg-background {
+  background-color: var(--color-background) !important;
+}
+
+.text-theme {
+  color: var(--color-main);
+}
+
+.text-light {
+  color: var(--color-text-light) !important;
+}
+
+.text-dark {
+  color: var(--color-text-dark) !important;
+}
+
+.text-secondary {
+  color: var(--color-subtext) !important;
+}
+
+.btn-main,
+.btn-secondary {
+  padding-inline: 2rem !important;
+  transition: .3s !important;
+  white-space: nowrap !important;
+}
+
+.btn-main {
+  background-color: var(--color-main) !important;
+  color: var(--color-background) !important;
+}
+
+.btn-main:hover,
+.btn-main:focus {
+  background-color: var(--color-btn-main-hover) !important;
+  color: var(--color-background) !important;
+}
+
+.btn-secondary {
+  background-color: var(--color-background) !important;
+  color: var(--color-main) !important;
+  border: 1px solid var(--color-main) !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: var(--color-btn-secondary-hover) !important;
+  color: var(--color-main) !important;
+}
+
+.highlight {
+  background-color: var(--color-main);
+  color: white;
+}
+
+/* ------------------------------ end my classes ------------------------------ */
